@@ -1,12 +1,12 @@
 # tilegen
 
-大きな地図の画像(.png)から、タイル画像を生成するgolang製ツールです。
+大きな地図の画像から、タイル画像を生成するgolang製ツールです。
 
 ## 環境変数
 
 `PROJECT_NAME`: 出力先のディレクトリ名
 
-`IMAGE_NAME`: 入力画像のファイル名 (".png" は不要) (指定しない場合、PROJECT_NAME と同じになる)
+`IMAGE_NAME`: 入力画像のファイル名 (指定しない場合、PROJECT_NAME+".png" になる)
 
 `ZOOM_RANGE_MIN`: ズームレベルの最小値 (デフォルト: 0)
 
